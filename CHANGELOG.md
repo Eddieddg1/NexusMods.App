@@ -7,7 +7,7 @@ We've given several of the core app pages a face lift to match our latest brandi
 ![Games page (top left), Loadouts page (top right), Health Check page (bottom left), Diagnostic page (bottom right)](./docs/changelog-assets/25dabc8ad98fdddf1f359c02a6d1d911.webp)
 
 ## File Conflicts
-A small, but important improvement to File Conflicts has been included in this release. In previous versions, when two mods provide files with the same name, the conflict winner would be chosen at random. We didn't feel this made a lot of sense so now the mod most recently added to the loadout will always win the conflict. To adjust the priority of mods you can now remove the more important mods from the loadout and re-add them. This is a temporaryd solution which we work on building a UI for conflict management. 
+A small, but important improvement to File Conflicts has been included in this release. In previous versions, when two mods provide files with the same name, the conflict winner would be chosen at random. We didn't feel this made a lot of sense so now the mod most recently added to the loadout will always win the conflict. To adjust the priority of mods you can now remove the more important mods from the loadout and re-add them. This is a temporary solution which we work on building a UI for conflict management. 
 
 ## Bannerlord Software Extender support
 Bannerlord players can now install and manage Bannerlord Software Extender (BLSE) with the app. The game will also be started with BLSE when configured. In addition, we've added some Health Checks diagnostics which show up when:
@@ -25,6 +25,7 @@ On Linux, the app will now start BLSE with the `/forcenetcore` argument to avoid
 ## Bugfixes
 * Fixed an issue where collections that include bundled mods would never be installable as it would always show pending downloads.
 * Fixed an issue where users in timezones 6 or more hours ahead of UTC would be unable to download collections.
+* Fixed an issue where when installing BG3SE it installed it into "Bin" instead of "bin" causing a problem on linux.
 
 ## Known Issues
 * Stardew Valley (Native Linux version) is not detected when installed via Heroic Launcher on Linux. The Windows version of the game can be used instead until this issue is fixed. 
