@@ -1,17 +1,12 @@
 site_name: Nexus Mods app
-site_url: https://github.com/Nexus-Mods/NexusMods.App
+site_url: https://github.com/Eddieddg1/NexusMods.App
 
-repo_name: Nexus-Mods/NexusMods.App
-repo_url: https://github.com/Nexus-Mods/NexusMods.App
+repo_name: Eddieddg1/NexusMods.App
+repo_url: https://github.com/Eddieddg1/NexusMods.App
 
 extra:
   social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/Nexus-Mods
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/NexusSites
-    - icon: fontawesome/brands/discord
-      link: https://discord.gg/ReWTxb93jS
+
 
 extra_css:
   - Nexus/Stylesheets/extra.css
