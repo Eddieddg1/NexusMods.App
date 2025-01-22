@@ -14,6 +14,8 @@
     </a>
 </div>
 
+THIS IS NOT MINE, I MADE A FORK TO FIX SOME ANNOYING BUGS AND ALSO TO MODIFY TO MY PREFERENCES!!!!
+
 Nexus Mods app is a mod installer, creator and manager for all your popular games.
 
 Easy to use, runs on your standard Windows PC and Linux alike. Don't waste time troubleshooting, play your games,
